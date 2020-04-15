@@ -20,4 +20,8 @@ URL: https://github.com/jonthegeek/aws.apireference
 BugReports: https://github.com/jonthegeek/aws.apireference/issues
 Suggests: 
     testthat,
-    covr
+    covr,
+    aws.lambda
+Imports: 
+    xml2,
+    rvest
