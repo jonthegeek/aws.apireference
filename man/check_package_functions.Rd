@@ -20,5 +20,8 @@ A list with components \code{missing_functions} (functions that
 Check an aws.* package for missing functions and unmatched functions.
 }
 \examples{
+\dontrun{
+# Requires aws.lambda package installed.
 check_package_functions("lambda")
+}
 }

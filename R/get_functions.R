@@ -32,7 +32,10 @@ get_expected_functions <- function(actions) {
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' # Requires aws.lambda package installed.
 #' check_package_functions("lambda")
+#' }
 check_package_functions <- function(api = c("ec2", "lambda")) {
   api <- match.arg(api)
   actions <- get_actions(api)
