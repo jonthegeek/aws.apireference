@@ -7,6 +7,8 @@
 
 [![R build
 status](https://github.com/jonthegeek/aws.apireference/workflows/R-CMD-check/badge.svg)](https://github.com/jonthegeek/aws.apireference/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/jonthegeek/aws.apireference/branch/master/graph/badge.svg)](https://codecov.io/gh/jonthegeek/aws.apireference?branch=master)
 <!-- badges: end -->
 
 The goal of aws.apireference is to help us validate our aws.\* packages
