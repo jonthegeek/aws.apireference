@@ -21,3 +21,6 @@ BugReports: https://github.com/jonthegeek/aws.apireference/issues
 Suggests: 
     testthat,
     covr
+Imports: 
+    xml2,
+    rvest
