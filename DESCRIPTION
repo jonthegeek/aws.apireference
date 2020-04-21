@@ -1,7 +1,7 @@
 Type: Package
 Package: aws.apireference
 Title: AWS API Reference Checker
-Version: 0.0.1.9000
+Version: 0.0.2.9000
 Authors@R: 
     person(given = "Jon",
            family = "Harmon",
