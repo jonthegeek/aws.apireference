@@ -38,9 +38,14 @@ get_expected_functions <- function(actions) {
 #' }
 check_package_functions <- function(api = c("ec2", "lambda")) {
   api <- match.arg(api)
+
+  # Confirm that they have the required package installed. Ideally this error
+  # message could be a little more informative, but this will do for now.
+  target_package <- paste0("aws.", api)
+  requireNamespace(target_package)
+
   actions <- get_actions(api)
   expected_functions <- get_expected_functions(actions)
-  target_package <- paste0("aws.", api)
   actual_functions <- getNamespaceExports(target_package)
   return(
     list(
